@@ -9,7 +9,7 @@ permalink: /rpg/game
 
 ## Define Game Runner in a Lesson
 
-Game Runner integrates your GameEngine framework for teaching game development. Define **challenge** and **code** variables, then pass them to the include with a unique **runner_id**.
+Game Runner integrates your GameEngine framework for teaching game development. Define **challenge** and **code** variables, then pass them to the include with a unique **runner_id**..
 
 ### Game Runner Architecture
 
