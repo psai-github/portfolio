@@ -111,7 +111,7 @@ Here is a little about my life so far.
 
 <img
     class="about-photo"
-    src="{{ site.baseurl }}/images/about-photo.jpg"
+    src="{{ site.baseurl }}/images/about-me.jpeg"
     alt="A photo of me with my family and friends"
 >
 
