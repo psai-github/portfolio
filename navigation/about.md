@@ -1,12 +1,11 @@
 ---
-
 layout: post
 title: About
 permalink: /about/
 comments: true
 ---
 
-## As a conversation Starter
+## As a Conversation Starter
 
 Here are some places I have lived.
 
@@ -15,65 +14,73 @@ Flags are made using Wikipedia images
 </comment>
 
 <style>
-    /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
-    */
+    /* Places-lived grid */
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 10px;
     }
+
     .grid-item {
         text-align: center;
     }
+
     .grid-item img {
         width: 100%;
-        height: 100px; /* Fixed height for uniformity */
-        object-fit: contain; /* Ensure the image fits within the fixed height */
-    }
-    .grid-item p {
-        margin: 5px 0; /* Add some margin for spacing */
+        height: 100px;
+        object-fit: contain;
     }
 
+    .grid-item p {
+        margin: 5px 0;
+    }
+
+    /* Image gallery */
     .image-gallery {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
         gap: 10px;
-        }
+    }
 
     .image-gallery img {
         max-height: 150px;
         object-fit: cover;
         border-radius: 5px;
     }
+
+    /* About-page photo */
+    .about-photo {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
 </style>
 
-<!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
+<!-- JavaScript adds the places-lived cards inside this container. -->
 
 <div class="grid-container" id="grid_container">
-    <!-- content will be added here by JavaScript -->
+    <!-- Content will be added here by JavaScript. -->
 </div>
 
 <script>
-    // 1. Make a connection to the HTML container defined in the HTML div
+    // Connect to the HTML container.
     var container = document.getElementById("grid_container");
 
-    // 2. Define our image source and data for the places I have lived
+    // Define the Wikimedia image source.
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-    var places_lived = [
-        {"flag": "2/28/Flag_of_California.svg", "greeting": "Hey", "description": "Temecula - born here"},
-        {"flag": "2/28/Flag_of_California.svg", "greeting": "Hey", "description": "San Diego - home"}
-    ];
 
-    // 3. Build grid items inside of our container
+    // Build a grid item for each place.
     for (const location of places_lived) {
         var gridItem = document.createElement("div");
         gridItem.className = "grid-item";
 
         var img = document.createElement("img");
         img.src = http_source + location.flag;
-        img.alt = location.flag + " Flag";
+        img.alt = location.description + " flag";
 
         var description = document.createElement("p");
         description.textContent = location.description;
@@ -89,7 +96,7 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### Journey through Life
+### Journey Through Life
 
 Here is a little about my life so far.
 
@@ -101,6 +108,12 @@ Here is a little about my life so far.
 * 🎂 I am currently **15 years old**
 
 ### Family, Friends, and Fun
+
+<img
+    class="about-photo"
+    src="{{ site.baseurl }}/images/about-photo.jpg"
+    alt="A photo of me with my family and friends"
+>
 
 Family is a big part of my life. I have a **twin brother**, and we have grown up together through every stage of our lives.
 
