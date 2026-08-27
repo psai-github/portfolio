@@ -33,7 +33,7 @@ Here is a little about my life so far.
 
 ### Family, Friends, and Fun
 
-<img src="{{ site.baseurl }}/images/about/about-me.jpeg" alt="A photo of me with my family and friends" class="about-photo">
+<img src="{{ site.baseurl }}/images/about/6fbf130d-7f44-4f63-923d-0f7a5c8bb189.JPG" alt="A photo of me with my family and friends" class="about-photo">
 
 Family is a big part of my life. I have a **twin brother**, and we have grown up together through every stage of our lives.
 
