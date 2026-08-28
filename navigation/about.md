@@ -71,7 +71,7 @@ comments: true
     }
 </script>
 
-Welcome to my About page!
+Welcome to my favorite About page!
 
 ### Journey Through Life
 
