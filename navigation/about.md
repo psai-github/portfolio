@@ -6,14 +6,24 @@ comments: true
 ---
 
 <style>
-.flags {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin: 20px 0;
-    font-size: 80px;
-    line-height: 1;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.grid-item p {
+    margin: 5px 0;
 }
 
 .about-photo {
@@ -25,19 +35,41 @@ comments: true
     border-radius: 12px;
 }
 
-@media (max-width: 600px) {
-    .flags {
-        font-size: 60px;
-    }
-}
 </style>
 
 ## As a Conversation Starter
 
-<div class="flags">
-    <span role="img" aria-label="United States flag">🇺🇸</span>
-    <span role="img" aria-label="India flag">🇮🇳</span>
+<div class="grid-container" id="grid_container">
 </div>
+
+<script>
+    var container = document.getElementById("grid_container");
+    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+    var places_lived = [
+        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "Hello", "description": "United States"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "India"}
+    ];
+
+    for (const location of places_lived) {
+        var gridItem = document.createElement("div");
+        gridItem.className = "grid-item";
+
+        var img = document.createElement("img");
+        img.src = http_source + location.flag;
+        img.alt = location.description + " flag";
+
+        var description = document.createElement("p");
+        description.textContent = location.description;
+
+        var greeting = document.createElement("p");
+        greeting.textContent = location.greeting;
+
+        gridItem.appendChild(img);
+        gridItem.appendChild(description);
+        gridItem.appendChild(greeting);
+        container.appendChild(gridItem);
+    }
+</script>
 
 Welcome to my About page!
 
