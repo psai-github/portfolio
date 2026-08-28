@@ -6,6 +6,16 @@ comments: true
 ---
 
 <style>
+.flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 20px 0;
+    font-size: 80px;
+    line-height: 1;
+}
+
 .about-photo {
     display: block;
     width: 100%;
@@ -13,10 +23,23 @@ comments: true
     height: auto;
     margin: 20px auto;
     border-radius: 12px;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .flags {
+        gap: 16px;
+        font-size: 60px;
+    }
 }
 </style>
 
 ## As a Conversation Starter
+
+<div class="flags" aria-label="United States and India flags">
+    <span role="img" aria-label="United States flag">🇺🇸</span>
+    <span role="img" aria-label="India flag">🇮🇳</span>
+</div>
 
 Welcome to my About page!
 
@@ -33,7 +56,11 @@ Here is a little about my life so far.
 
 ### Family, Friends, and Fun
 
-<img src="{{ site.baseurl }}/images/about/6fbf130d-7f44-4f63-923d-0f7a5c8bb189.JPG" alt="A photo of me with my family and friends" class="about-photo">
+<img
+    src="{{ '/images/about/6fbf130d-7f44-4f63-923d-0f7a5c8bb189.JPG' | relative_url }}"
+    alt="Me with my family and friends"
+    class="about-photo"
+>
 
 Family is a big part of my life. I have a **twin brother**, and we have grown up together through every stage of our lives.
 
