@@ -1,81 +1,140 @@
 ---
 layout: post
-title: "AP CSP Retrospective: From Setup to Collaboration and MCQ Reflection"
-description: "Reflecting on tool setup, teaching Sass inputs, PVO ideation, collaboration, AI, the development life cycle, and College Board MCQ results."
+title: "AP CSP Retrospective — Learning, Building, and Growing Together"
+description: "A reflection on my CSP journey, teamwork, AI, the development process, and College Board MCQ results."
 permalink: /csp-retrospective-2026/
 courses: { csp: {week: 7} }
 ---
 
-# AP CSP Retrospective — October 2026
+# AP CSP Retrospective: Learning, Building, and Growing Together
+*October 12, 2026*
 
-## My progress so far
+> **Biggest takeaway:** CSP has taught me that building software isn't just about writing code. It's also about communicating ideas, listening to others, testing assumptions, and improving through feedback.
 
-At the beginning of this stretch of AP Computer Science Principles, much of my attention was on getting the development environment working and learning how to navigate a portfolio-based workflow. Setting up tools and working with repositories made me appreciate how much development depends on the surrounding infrastructure, not just writing code. GitHub, local development, organizing files, and publishing work are all parts of communicating a project's progress. Instead of viewing setup as an obstacle before the “real” programming, I now see reproducible setup and organization as essential engineering skills.
+## At a glance
 
-Another meaningful experience was teaching a lesson about **Sass inputs**. Preparing to teach pushed me beyond simply recognizing a concept: I had to consider how a learner would understand it, how to break the idea into manageable pieces, and how examples could make it concrete. Explaining technical material is also a test of my own understanding. A next step is to include more small hands-on exercises and to check for misunderstandings rather than assuming an explanation landed.
+| What I've worked on | What it taught me |
+| :--- | :--- |
+| Setting up development tools and my portfolio | Organization, troubleshooting, and the importance of a reliable workflow |
+| Teaching a **Sass inputs** lesson | How to explain concepts clearly and learn by teaching |
+| Ideating on **PVO** | Thinking about users, requirements, and priorities before coding |
+| CSP programming and Sass exercises | Applying abstractions, logic, iteration, and interface concepts |
+| Collaborating with my team | Sharing responsibilities, listening, and communicating progress |
+| College Board MCQ practice | Using evidence to find what I understand and where I need to grow |
 
-Our **PVO ideation** work helped me see development before implementation. An idea becomes more useful when we clarify the problem, the intended user, what the first viable version should accomplish, and how to decide which features matter. I am learning to resist jumping into coding before thinking through the requirements and tradeoffs. This also connects to iteration: a first proposal is a starting hypothesis, not a final product.
+---
 
-My portfolio includes homework notebooks on **variables, strings, lists, data abstraction, conditionals, Boolean expressions, iterations, procedures, libraries, randomness, algorithmic efficiency, and Sass components**. Working across these topics has helped me make connections between concepts that might otherwise appear separate. For example, inputs collect information, conditionals decide how a program responds, and procedures and abstractions help keep the result manageable.
+## 1. My CSP journey so far
 
-## How I am growing as a collaborator
+### From setup to building
 
-Collaboration is more than splitting a workload. It requires communicating decisions, listening to other interpretations, documenting progress, and making code and explanations understandable to someone else. Teaching a lesson made that especially clear: even when I understand something, the way I communicate it determines whether it helps the group. During project ideation, I have been practicing evaluating suggestions against user needs rather than relying only on personal preferences.
+Getting my tools and portfolio ready was an important first step. It taught me that even before writing code, software development requires organization, patience, and troubleshooting. I am more comfortable navigating my project, keeping work documented, and treating my portfolio as a record of my progress.
 
-I want to improve further by asking more targeted questions, clarifying ownership and deadlines, seeking feedback earlier, and using GitHub issues and commits to keep work visible. A good collaborator should make it easier for the next person to pick up the project.
+As I worked through programming topics such as variables, lists, Boolean expressions, conditionals, loops, procedures, and abstraction, I began to connect individual lessons to the bigger picture of creating functional programs. Sass activities also helped me think about how a user interacts with an application, not just how the code works behind the scenes.
 
-## How my use of AI is becoming more intentional
+### Learning through teaching
 
-AI can speed up brainstorming, explaining unfamiliar syntax, generating example code, and identifying possible bugs. However, it should support my thinking rather than substitute for it. I am working toward a workflow where I **first identify the problem and form a hypothesis**, then ask AI focused questions, inspect its reasoning or output, test any generated code, and revise based on actual results. If I cannot explain why a proposed solution works, I should not treat it as finished.
+Preparing and teaching the **Sass inputs** lesson was different from completing an assignment myself. I had to consider the perspective of someone seeing the material for the first time, organize the concepts, and make my explanation understandable. It reminded me that knowing something and teaching it effectively are different skills. I want to get better at including clear examples, checking for understanding, and adapting explanations to the audience.
 
-AI is particularly useful as a learning partner when I ask it to challenge my understanding or compare alternatives. Its limitations also reinforce the importance of verification: fluent explanations and plausible code can still be wrong.
+### Learning through PVO ideation
 
-## Understanding the software development life cycle
+Our **PVO ideation** work showed me that developing software starts with defining a meaningful problem. Rather than immediately choosing features or writing code, I am learning to consider who will use the product, what they need, and what a realistic first version should do. This has helped me become more open to revising ideas instead of treating the first idea as the best one.
 
-These experiences have made the **software development life cycle (SDLC)** more concrete for me:
+---
 
-1. **Planning and requirements:** PVO ideation asks who the user is and what problem the product solves.
-2. **Design:** Decide how inputs, interfaces, data, and logic should work together.
-3. **Implementation:** Apply programming concepts and tools to build a working version.
-4. **Testing:** Try normal cases, edge cases, and unexpected inputs; compare expected and actual results.
-5. **Deployment and documentation:** Use the portfolio and GitHub to share work and make it reproducible.
-6. **Feedback and iteration:** Reflect on what worked, communicate with collaborators, and improve the next version.
+## 2. How I have grown
 
-The process is not strictly linear. It is often necessary to return to design after testing or refine the problem after receiving feedback.
+### As a person
 
-## College Board MCQ results: evidence-based analysis
+The most important growth has been in my mindset. I am becoming more patient when things do not work immediately and more willing to learn through trial, feedback, and revision. Teaching and group discussions have also helped me practice expressing ideas clearly and accepting that someone else may see a better approach.
 
-I completed a 66-question College Board AP CSP multiple-choice practice assessment in **1:24:57**, scoring **53/66 (80.3%)**. The analysis below is calculated from the question-by-question report; it is not a separate CB Analytics dashboard export.
+I am learning to be **more adaptable, accountable, and reflective**. Instead of treating a mistake as the end of a task, I want to understand why it happened and what I can change the next time. I also want to become more confident in contributing ideas while remaining open to criticism and different perspectives.
 
-| Big Idea | Correct | Accuracy | Reflection |
-|---|---:|---:|---|
-| **1 — Creative Development** | 3/5 | **60.0%** | Development processes make sense to me, but the missed debugging and test-case questions reveal a gap between conceptual understanding and systematic testing. |
-| **2 — Data** | 13/16 | **81.3%** | I did well with compression, metadata, binary representation, and data representation; I need more care with data comparisons, binary text representation, and interpreting projections. |
-| **3 — Algorithms and Programming** | 24/30 | **80.0%** | I generally understand conditions, procedures, and loops, but robot algorithms, program flow, and runtime reasoning need more deliberate tracing. |
-| **4 — Computer Systems and Networks** | 3/4 | **75.0%** | I handled Internet communication, redundant routing, and open standards, but missed a question about the IETF. This sample is small. |
-| **5 — Impact of Computing** | 10/11 | **90.9%** | This is my strongest observed area: security, encryption, crowdsourcing, licensing, and societal consequences. I missed a comparison involving online versus print encyclopedias. |
+### As a collaborator
 
-### Specific strengths and weaknesses
+I am learning that good collaboration is not just dividing up tasks. It also means making sure everyone understands the goal, listening actively, communicating progress, and following through. Working on PVO and preparing a lesson have reminded me to consider other people's viewpoints rather than only my own.
 
-**Strengths:** Security and encryption (Q2, Q47, Q51), ethical and legal issues (Q16, Q35), procedures and abstraction (Q10, Q20, Q54, Q55, Q57, Q60), compression (Q24, Q25, Q59), and core Internet concepts (Q15, Q23, Q39). These results suggest I can apply a broad base of CSP concepts rather than relying on a single unit.
+My next step is to be more proactive: clarify tasks early, ask for feedback before the last minute, and document decisions so teammates can build on one another's work.
 
-**Targets for improvement:** I missed Q1 (swapping variables), Q6 (IETF), Q12 (interpreting a social-media projection), Q21 and Q31 (robot algorithms), Q22 (weather procedure), Q28 (binary sequences in a text editor), Q33 (rental-site flowchart), Q43 (algorithm runtime), Q61 (school data comparison), Q62 (encyclopedia comparison), and Q65–Q66 (debugging and selecting tests). I should revisit the exact question explanations before concluding which misconception caused each miss.
+### How our team has grown
 
-The two missed **1.4** questions (Q65 and Q66) make testing a priority. Similarly, missed questions in **3.9** and **3.12** show that I should practice tracing loops and procedures carefully on paper. My **2.3** results were mixed, so I should distinguish what a dataset directly shows from what can reasonably be inferred or predicted from it.
+Our team has been moving from **individual contributions toward a shared process**. Through lessons, discussion, and ideation, we are building a stronger understanding of one another's strengths and how different perspectives contribute to an idea. Explaining concepts to each other and discussing PVO have given us opportunities to practice communication and shared decision-making.
 
-### Timing observations
+We still have room to improve. We can be more consistent about dividing responsibilities, making our plans visible, and checking in on progress. I think a stronger team is not one that agrees on everything, but one that can respectfully discuss differences and turn them into a better result.
 
-The reported total is **84 minutes and 57 seconds**, averaging about **77 seconds per question**. Q2 alone shows **24:10** but was correct. That is a reminder that time allocation matters as well as accuracy. I should find out whether that time reflects active problem solving or simply leaving the question open; the timing report alone cannot tell me. I also missed some questions despite answering them quickly, especially Q65 and Q66, which suggests I should slow down enough to test examples rather than choose the first plausible answer.
+---
 
-## Concrete next steps
+## 3. Growing with AI and the software development life cycle
 
-- **Testing and debugging:** Build a table of normal, boundary, and invalid inputs for small procedures. Revisit Q65–Q66 and practice explaining why each test case matters.
-- **Algorithm tracing:** Trace swaps, loops, robot movement, and flowcharts with a variable/state table before checking answer choices.
-- **Data interpretation:** Review Q12, Q28, and Q61; distinguish representation errors, comparisons, and unsupported extrapolations.
-- **Networks and impacts:** Review the IETF's role and the tradeoffs between collaborative online and print resources.
-- **Collaboration and SDLC:** Use a simple issue checklist for each new feature: user problem, acceptance criteria, implementation, tests, feedback, and reflection.
-- **AI literacy:** Record the question I asked AI, the suggestion it made, how I verified it, and what I learned independently.
+### Using AI more responsibly
+
+My goal is to use AI as a **learning and development assistant**, not a replacement for my own reasoning. It can help me brainstorm, explain unfamiliar concepts, compare possible approaches, and troubleshoot code. But I am realizing the importance of questioning its output: Does the explanation make sense? Can I verify the code? Can I explain the solution on my own?
+
+I want to improve the quality of my questions to AI and spend more time testing its suggestions. That way, using AI helps build my understanding rather than hide gaps in it.
+
+### Seeing the full development process
+
+The **software development life cycle (SDLC)** now feels less abstract because I can connect its stages to what we have done:
+
+| Stage | CSP connection |
+| :--- | :--- |
+| **Plan** | Identify users and goals during PVO ideation |
+| **Design** | Think through features, inputs, and program behavior |
+| **Build** | Practice code, abstractions, procedures, and interfaces |
+| **Test** | Check whether logic handles expected and unexpected cases |
+| **Share** | Use GitHub and our portfolio to present and document work |
+| **Improve** | Learn from feedback, errors, and team retrospectives |
+
+I am starting to see that these stages are **iterative**. Testing may reveal a design problem, feedback may change a requirement, and a better idea may emerge after a first version.
+
+---
+
+## 4. College Board MCQ reflection
+
+### My results
+
+| Measure | Result |
+| :--- | :--- |
+| **Score** | **53 / 66 (80.3%)** |
+| **Time** | **1 hour, 24 minutes, 57 seconds** |
+| **Questions answered correctly** | **53** |
+
+*The Big Idea breakdown below is calculated from my question-level College Board report.*
+
+| AP CSP Big Idea | Correct | Accuracy |
+| :--- | ---: | ---: |
+| **1. Creative Development** | 3 / 5 | 60.0% |
+| **2. Data** | 13 / 16 | 81.3% |
+| **3. Algorithms & Programming** | 24 / 30 | 80.0% |
+| **4. Computer Systems & Networks** | 3 / 4 | 75.0% |
+| **5. Impact of Computing** | 10 / 11 | **90.9%** |
+
+### What I am doing well
+
+My strongest result was in **Impact of Computing**. I feel most confident reasoning about how computing affects people, including privacy, security, ethics, and the broader use of technology. I also showed solid overall understanding in **Data** and **Algorithms & Programming**, which suggests that the programming lessons and practice have built a useful foundation.
+
+### Where I want to improve
+
+The results show that I need to strengthen my **development and testing habits**. I want to become more systematic about checking whether a solution works in different situations, instead of only deciding whether it looks correct.
+
+I also want to improve at **tracing unfamiliar algorithms step by step**, especially when multiple conditions or iterations interact. In data-related questions, I can work on interpreting what information actually supports a conclusion. Finally, I want to review networking concepts and become more consistent about pacing myself through longer assessments.
+
+These percentages are useful indicators, but the topics had different numbers of questions, so one practice assessment is not a complete measure of my understanding.
+
+---
+
+## 5. What comes next
+
+My priorities for the next stage of CSP are simple:
+
+1. **Practice testing and debugging:** use normal and edge cases to check my reasoning.
+2. **Slow down on complex algorithms:** trace program state instead of guessing.
+3. **Collaborate more intentionally:** communicate ownership, progress, and feedback.
+4. **Verify AI-generated suggestions:** test results and explain solutions independently.
+5. **Keep iterating:** use the SDLC to improve PVO ideas and future portfolio work.
 
 ## Final reflection
 
-I am becoming more aware that being a computer scientist involves more than being able to write an algorithm. It means building reliable tools, explaining ideas, collaborating with others, identifying worthwhile problems, testing assumptions, and revising work based on evidence. My MCQ score shows encouraging breadth, but it also exposes specific weaknesses—particularly debugging, test selection, and careful algorithm tracing. My goal for the next phase of CSP is to turn those weaknesses into habits of systematic thinking while making my contributions easier for teammates to understand and build upon.
+Looking back, I see growth in more than my technical knowledge. I have become more conscious of how I learn, how I communicate, and how I contribute to a team. My team is learning how to combine ideas into a shared direction, and I am learning how to balance independent thinking with collaboration and AI assistance.
+
+The MCQ results are encouraging, but more importantly, they give me a direction for improvement. Going forward, I want to focus not just on getting an answer or a program to work, but on understanding **why** it works, how to make it reliable, and how to build it with others.
